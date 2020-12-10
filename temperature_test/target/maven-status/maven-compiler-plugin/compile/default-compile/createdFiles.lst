@@ -1,0 +1,4 @@
+cn\sky\hadoop\TemperatureMapper.class
+cn\sky\hadoop\Temperature.class
+cn\sky\hadoop\TemperatureReducer.class
+cn\sky\hadoop\JobMain.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.weblog.mapper.MinTempMapper" >
+    <select id="getAllMinTemp"   resultType="cn.itcast.weblog.pojo.MinTempPojo">
+        select * from min_temperature;
+    </select>
+    <!--
+  mybaits特殊字符转译
+    &            &amp;
+
+    <            &lt;
+
+    >            &gt;
+
+    "             &quot;
+
+    '              &apos;
+    小于等于    a<=b                 a &lt;= b      a <![CDATA[<= ]]>b
+
+    大于等于    a>=b                 a &gt;= b      a <![CDATA[>= ]]>b
+
+    不等于        a!=ba <![CDATA[ <> ]]>b      a <![CDATA[!= ]]>b
+    -->
+
+</mapper>

@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/jackson-annotations-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/mybatis-paginator-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/mybatis-3.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/mysql-connector-java-5.1.32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/druid-1.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/jackson-core-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/aspectjweaver-1.8.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/jackson-databind-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/day09_weblogx/WEB-INF/lib/mybatis-spring-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

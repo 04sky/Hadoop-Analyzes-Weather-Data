@@ -1,0 +1,164 @@
+/*------------------------------------------------------------------
+
+[OLIVE ENTERPRISE]
+
+[Stylesheet For Table (In Mobile-Small Screen)]
+
+Project:	OLIVE ADMIN
+Version:	1.1
+Last change:	[INITIAL RELEASE]
+Assigned to:	Olive Enterprise (Surat,IN)
+Primary use:	Admin Side Used Template. 
+-------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+[1. Table CSS (Media Screen)]
+*/
+
+
+
+@media only screen and (max-width: 800px) {
+    #unseen table td:nth-child(2),#unseen table th:nth-child(2) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #unseen table td:nth-child(4),#unseen table th:nth-child(4),#unseen table td:nth-child(7),#unseen table th:nth-child(7),#unseen table td:nth-child(8),#unseen table th:nth-child(8) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #flip-scroll .cf:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+
+    #flip-scroll * html .cf {
+        zoom: 1;
+    }
+
+    #flip-scroll *:first-child+html .cf {
+        zoom: 1;
+    }
+
+    #flip-scroll table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    #flip-scroll th,#flip-scroll td {
+        margin: 0;
+        vertical-align: top;
+    }
+
+    #flip-scroll th {
+        text-align: left;
+    }
+
+    #flip-scroll table {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+
+    #flip-scroll thead {
+        display: block;
+        float: left;
+    }
+
+    #flip-scroll tbody {
+        display: block;
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    #flip-scroll thead tr {
+        display: block;
+    }
+
+    #flip-scroll th {
+        display: block;
+        text-align: right;
+    }
+
+    #flip-scroll tbody tr {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #flip-scroll td {
+        display: block;
+        min-height: 1.25em;
+        text-align: left;
+    }
+
+    #flip-scroll th {
+        border-bottom: 0;
+        border-left: 0;
+    }
+
+    #flip-scroll td {
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+
+    #flip-scroll tbody tr {
+        border-left: 1px solid #babcbf;
+    }
+
+    #flip-scroll th:last-child,#flip-scroll td:last-child {
+        border-bottom: 1px solid #babcbf;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #no-more-tables table,#no-more-tables thead,#no-more-tables tbody,#no-more-tables th,#no-more-tables td,#no-more-tables tr {
+        display: block;
+    }
+
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr {
+        border: 1px solid #ccc;
+    }
+
+    #no-more-tables td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+    }
+
+    #no-more-tables td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    #no-more-tables td:before {
+        content: attr(data-title);
+    }
+}
